@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 442aa29fc34640c4086c46610828b97c
+  - enabled: 1
+    path: Assets/Scenes/MonitorDiaphragmGlobeValve.unity
+    guid: 75813a6e97ee2624dba89d559f22cce0
+  - enabled: 1
+    path: Assets/Scenes/MonitorDiaphragmButterflyValve.unity
+    guid: 2a20de4eea2624347badb713002c724b
+  - enabled: 1
+    path: Assets/Scenes/MonitorDiaphragmBallValve2.unity
+    guid: ec6d967bee1bdda4aa871ea3dea91dda
+  - enabled: 1
+    path: Assets/Scenes/MonitorDiaphragmGateValve.unity
+    guid: cb60838eafc614d418bf35fc51a7d3e2
+  - enabled: 1
+    path: Assets/Scenes/MonitorMotorButterflyValve.unity
+    guid: 56f42fa7dbff90d4d8da0be3a74e9a0c
+  - enabled: 1
+    path: Assets/Scenes/MonitorMotorGateValve.unity
+    guid: 47586c2ddf6cf2b429e81ae23344b8d3
+  - enabled: 1
+    path: Assets/Scenes/MonitorMotorGlobeValve.unity
+    guid: c0a6eebbe21730a4ca9b24b7b64d3b9d
+  - enabled: 1
+    path: Assets/Scenes/MonitorMotorBallValve2.unity
+    guid: 03fa2a37bc27075489e9fc8cbb17e41e
+  m_configObjects: {}

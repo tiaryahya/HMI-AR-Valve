@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="all3" size="1.000000 1.152334" />
+    <ImageTarget name="all2" size="1.000000 0.803763" />
+    <ImageTarget name="all1" size="1.000000 0.791228" />
+    <ImageTarget name="all" size="1.000000 1.979487" />
+    <ImageTarget name="3" size="1.000000 1.000000" />
+    <ImageTarget name="2" size="1.000000 1.000000" />
+    <ImageTarget name="1" size="1.000000 1.000000" />
+    <ImageTarget name="PnID" size="2.000000 2.000000" />
+    <ImageTarget name="PneumaticBallValve" size="1.000000 0.960269" />
+    <ImageTarget name="ButterflyValve" size="1.000000 1.058321" />
+    <ImageTarget name="GlobeValve" size="1.000000 0.876471" />
+    <ImageTarget name="PV2622" size="1.000000 1.000000" />
+    <ImageTarget name="PV2620" size="1.000000 1.000000" />
+    <ImageTarget name="Untitled-1" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
