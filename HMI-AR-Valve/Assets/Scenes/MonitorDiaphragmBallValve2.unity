@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 17183960}
   - component: {fileID: 17183959}
   m_Layer: 5
-  m_Name: PublishButton
+  m_Name: TombolKirim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 427997194}
   - component: {fileID: 427997193}
   m_Layer: 5
-  m_Name: BrokerAddress
+  m_Name: MasukanAlamatBroker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7, y: -14.48}
+  m_AnchoredPosition: {x: -1.64, y: -14.48}
   m_SizeDelta: {x: 202, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &427997193
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 522219879}
   - component: {fileID: 522219878}
   m_Layer: 5
-  m_Name: BrokerPort
+  m_Name: MasukanPortBroker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 623023451}
   - component: {fileID: 623023450}
   m_Layer: 5
-  m_Name: FlowOutLabel
+  m_Name: LabelLajuAlirKeluar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -741,7 +741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.28, y: -0.42}
+  m_AnchoredPosition: {x: -2.99, y: -0.42}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623023450
@@ -765,7 +765,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -776,7 +776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flow Out
+  m_Text: Laju Alir Keluar
 --- !u!222 &623023451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Disconnect
+  m_Text: Memutus
 --- !u!222 &710685473
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1046,9 +1046,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Back
-
-'
+  m_Text: Kembali
 --- !u!222 &861690890
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1153,7 +1151,7 @@ GameObject:
   - component: {fileID: 975792204}
   - component: {fileID: 975792206}
   m_Layer: 5
-  m_Name: OpeningPercentageValue
+  m_Name: NilaiPersentaseBukaan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1175,7 +1173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.04, y: 1.89}
+  m_AnchoredPosition: {x: 0, y: 1.28}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975792204
@@ -1199,10 +1197,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1259,7 +1257,7 @@ GameObject:
   - component: {fileID: 995628665}
   - component: {fileID: 995628667}
   m_Layer: 5
-  m_Name: FlowOut
+  m_Name: NilaiLajuAlirKeluar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1281,7 +1279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.28, y: -1.7499995}
+  m_AnchoredPosition: {x: -3.09, y: -1.7499995}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995628665
@@ -1305,7 +1303,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1516,7 +1514,7 @@ GameObject:
   - component: {fileID: 1137008092}
   - component: {fileID: 1137008091}
   m_Layer: 5
-  m_Name: MessagePublish
+  m_Name: MasukanNilaiPublish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1713,17 +1711,17 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Broker Address
+  m_Text: Alamat Broker
 --- !u!222 &1154866812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1745,7 +1743,7 @@ GameObject:
   - component: {fileID: 1208612127}
   - component: {fileID: 1208612126}
   m_Layer: 5
-  m_Name: ButtonBack
+  m_Name: TombolKembali
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1966,7 +1964,7 @@ GameObject:
   - component: {fileID: 1433944335}
   - component: {fileID: 1433944334}
   m_Layer: 5
-  m_Name: RotateLabel
+  m_Name: LabelRotasi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2023,7 +2021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotate
+  m_Text: Rotasi
 --- !u!222 &1433944335
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2180,9 +2178,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Publish
-
-'
+  m_Text: Kirim
 --- !u!222 &1559770285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2204,7 +2200,7 @@ GameObject:
   - component: {fileID: 1564881979}
   - component: {fileID: 1564881978}
   m_Layer: 5
-  m_Name: DisconnectButton
+  m_Name: TombolMemutus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2227,8 +2223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8, y: -16}
-  m_SizeDelta: {x: 85.5, y: 30}
+  m_AnchoredPosition: {x: 2.1, y: -16}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564881978
 MonoBehaviour:
@@ -2355,7 +2351,7 @@ GameObject:
   - component: {fileID: 1570425514}
   - component: {fileID: 1570425513}
   m_Layer: 5
-  m_Name: OpeningPercentageLabel
+  m_Name: LabelPersentaseBukaan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2377,8 +2373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.22, y: 1.89}
-  m_SizeDelta: {x: 105.7, y: 16.3}
+  m_AnchoredPosition: {x: -0.18, y: 2.55}
+  m_SizeDelta: {x: 138.7, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570425513
 MonoBehaviour:
@@ -2401,10 +2397,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -2412,7 +2408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Valve Opening :'
+  m_Text: Persentase Bukaan
 --- !u!222 &1570425514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2573,7 +2569,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
@@ -2782,7 +2778,7 @@ GameObject:
   - component: {fileID: 1883531782}
   - component: {fileID: 1883531781}
   m_Layer: 5
-  m_Name: FlowInLabel
+  m_Name: LabelLajuAlirMasuk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2804,7 +2800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.63, y: -0.42}
+  m_AnchoredPosition: {x: 2.87, y: -0.42}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883531781
@@ -2828,7 +2824,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2839,7 +2835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flow In
+  m_Text: Laju Alir Masuk
 --- !u!222 &1883531782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2907,7 +2903,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -2917,7 +2913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Message
+  m_Text: Nilai Persentase
 --- !u!222 &1892543964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2995,7 +2991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Connect
+  m_Text: Menyambung
 --- !u!222 &1987800490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3094,7 +3090,7 @@ GameObject:
   - component: {fileID: 2036687961}
   - component: {fileID: 2036687960}
   m_Layer: 5
-  m_Name: Valve Label
+  m_Name: LabelValve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3173,7 +3169,7 @@ GameObject:
   - component: {fileID: 2084115594}
   - component: {fileID: 2084115596}
   m_Layer: 5
-  m_Name: FlowIn
+  m_Name: LajuAlirMasuk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3195,7 +3191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.63, y: -1.7499995}
+  m_AnchoredPosition: {x: 3.02, y: -1.7499995}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084115594
@@ -3219,7 +3215,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -3278,7 +3274,7 @@ GameObject:
   - component: {fileID: 2124138257}
   - component: {fileID: 2124138256}
   m_Layer: 5
-  m_Name: ConnectButton
+  m_Name: TombolMenyambung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3301,8 +3297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9, y: -16}
-  m_SizeDelta: {x: 83.2, y: 30}
+  m_AnchoredPosition: {x: -1.95, y: -16}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124138256
 MonoBehaviour:

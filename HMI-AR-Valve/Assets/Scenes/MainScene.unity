@@ -535,7 +535,6 @@ MonoBehaviour:
   topiknya: TOPIK10
   topikpublishnya: RecTOPIK10
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 409388831}
 --- !u!114 &59736246
 MonoBehaviour:
@@ -666,7 +665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Disconnect
+  m_Text: Memutus
 --- !u!222 &61256279
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1227,7 +1226,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &186504719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1871,7 +1870,6 @@ MonoBehaviour:
   topiknya: TOPIK6
   topikpublishnya: RecTOPIK6
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 2022488252}
 --- !u!114 &253765381
 MonoBehaviour:
@@ -2077,7 +2075,6 @@ MonoBehaviour:
   topiknya: TOPIK19
   topikpublishnya: RecTOPIK19
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 830443256}
 --- !u!114 &284470404
 MonoBehaviour:
@@ -2297,6 +2294,169 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290456033}
   m_CullTransparentMesh: 0
+--- !u!43 &296150398
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ImageTargetMesh16882
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.4978735}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf0000000047e9febe000000000000803f000000000000000000000000000000bf0000000047e9fe3e000000000000803f00000000000000000000803f0000003f0000000047e9febe000000000000803f000000000000803f000000000000003f0000000047e9fe3e000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.4978735}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &297773573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,7 +3235,6 @@ MonoBehaviour:
   topiknya: TOPIK8
   topikpublishnya: RecTOPIK8
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 913684573}
 --- !u!114 &339108949
 MonoBehaviour:
@@ -3279,7 +3438,6 @@ MonoBehaviour:
   topiknya: TOPIK
   topikpublishnya: RecTOPIK
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 473726230}
 --- !u!114 &349095816
 MonoBehaviour:
@@ -3799,15 +3957,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391653191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.48, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1.02, y: 0.33, z: 1}
   m_Children: []
   m_Father: {fileID: 8837996065747946158}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -69.4}
+  m_AnchoredPosition: {x: 0, y: -34.9}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391653193
@@ -5013,7 +5171,6 @@ MonoBehaviour:
   topiknya: TOPIK18
   topikpublishnya: RecTOPIK18
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 112947806}
 --- !u!114 &497799020
 MonoBehaviour:
@@ -5139,7 +5296,6 @@ MonoBehaviour:
   topiknya: TOPIK9
   topikpublishnya: RecTOPIK9
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 819390985}
 --- !u!114 &501645122
 MonoBehaviour:
@@ -5945,7 +6101,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &592272444
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6192,7 +6348,6 @@ MonoBehaviour:
   topiknya: TOPIK17
   topikpublishnya: RecTOPIK17
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 2098840951}
 --- !u!114 &606760869
 MonoBehaviour:
@@ -6517,7 +6672,6 @@ MonoBehaviour:
   topiknya: TOPIK11
   topikpublishnya: RecTOPIK11
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1910318942}
 --- !u!114 &625038085
 MonoBehaviour:
@@ -7039,7 +7193,6 @@ MonoBehaviour:
   topiknya: TOPIK23
   topikpublishnya: RecTOPIK23
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 350771004}
 --- !u!114 &684486348
 MonoBehaviour:
@@ -7493,7 +7646,6 @@ MonoBehaviour:
   topiknya: TOPIK7
   topikpublishnya: RecTOPIK7
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 352502083}
 --- !u!114 &767797422
 MonoBehaviour:
@@ -7726,16 +7878,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778763714}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &801532589
+--- !u!21 &803736037
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'NewkananMaterial
+  m_Name: 'NewkiriMaterial
 
-    39542'
+    16892'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -7748,7 +7900,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 99727a6c457b4c3a9eeb6478102bb044, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1b05680b19b04d4a8cfcbf9f18852f61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7894,7 +8046,6 @@ MonoBehaviour:
   topiknya: TOPIK2
   topikpublishnya: RecTOPIK2
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 616172763}
 --- !u!114 &817989504
 MonoBehaviour:
@@ -8512,7 +8663,6 @@ MonoBehaviour:
   topiknya: TOPIK15
   topikpublishnya: 
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 2070901176}
 --- !u!114 &908191473
 MonoBehaviour:
@@ -8716,7 +8866,6 @@ MonoBehaviour:
   topiknya: TOPIK4
   topikpublishnya: RecTOPIK4
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1461308246}
 --- !u!114 &918308870
 MonoBehaviour:
@@ -8842,7 +8991,6 @@ MonoBehaviour:
   topiknya: TOPIK22
   topikpublishnya: RecTOPIK22
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1890558015}
 --- !u!114 &925745295
 MonoBehaviour:
@@ -9046,7 +9194,6 @@ MonoBehaviour:
   topiknya: TOPIK3
   topikpublishnya: RecTOPIK3
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 605186168}
 --- !u!114 &932928298
 MonoBehaviour:
@@ -9351,7 +9498,6 @@ MonoBehaviour:
   topiknya: TOPIK24
   topikpublishnya: RecTOPIK24
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 318246042}
 --- !u!114 &941924792
 MonoBehaviour:
@@ -9706,7 +9852,6 @@ MonoBehaviour:
   topiknya: TOPIK5
   topikpublishnya: RecTOPIK5
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 111916986}
 --- !u!114 &969869654
 MonoBehaviour:
@@ -10215,7 +10360,6 @@ MonoBehaviour:
   topiknya: TOPIK21
   topikpublishnya: RecTOPIK21
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1331929141}
 --- !u!114 &1040545330
 MonoBehaviour:
@@ -10292,7 +10436,7 @@ GameObject:
   - component: {fileID: 1044186836}
   - component: {fileID: 1044186835}
   m_Layer: 0
-  m_Name: NewAll 2
+  m_Name: ObjekAR2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10305,7 +10449,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044186834}
-  m_Mesh: {fileID: 1374367876}
+  m_Mesh: {fileID: 1079384473}
 --- !u!23 &1044186836
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10324,7 +10468,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 801532589}
+  - {fileID: 2075571732}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10709,6 +10853,169 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055620108}
   m_CullTransparentMesh: 0
+--- !u!43 &1079384473
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ImageTargetMesh16424
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.244219}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf000000008c147abe000000000000803f000000000000000000000000000000bf000000008c147a3e000000000000803f00000000000000000000803f0000003f000000008c147abe000000000000803f000000000000803f000000000000003f000000008c147a3e000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.244219}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1083557448
 GameObject:
   m_ObjectHideFlags: 0
@@ -10720,7 +11027,7 @@ GameObject:
   - component: {fileID: 1083557450}
   - component: {fileID: 1083557449}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Pencahayaan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10948,7 +11255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &1096230025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11106,7 +11413,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &1103850537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11314,7 +11621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &1149794758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11721,7 +12028,6 @@ MonoBehaviour:
   topiknya: TOPIK14
   topikpublishnya: 
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 226672267}
 --- !u!114 &1213093575
 MonoBehaviour:
@@ -12506,169 +12812,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.20966738, y: 0.009444445}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!43 &1374367876
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh39532
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 6
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 4
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.244219}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200020001000300
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 4
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 128
-    _typelessdata: 000000bf000000008c147abe000000000000803f000000000000000000000000000000bf000000008c147a3e000000000000803f00000000000000000000803f0000003f000000008c147abe000000000000803f000000000000803f000000000000003f000000008c147a3e000000000000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0, z: 0.244219}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1376022601
 GameObject:
   m_ObjectHideFlags: 0
@@ -13006,7 +13149,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &1438678552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13464,7 +13607,6 @@ MonoBehaviour:
   topiknya: TOPIK13
   topikpublishnya: 
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1967176489}
 --- !u!114 &1543139862
 MonoBehaviour:
@@ -13595,7 +13737,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &1550111829
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14307,7 +14449,7 @@ GameObject:
   - component: {fileID: 1665446392}
   - component: {fileID: 1665446391}
   m_Layer: 5
-  m_Name: DisconnectButton
+  m_Name: TombolPutusKoneksi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14330,7 +14472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.5, y: -43.999973}
+  m_AnchoredPosition: {x: 16.2, y: -43.999973}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665446391
@@ -14982,7 +15124,6 @@ MonoBehaviour:
   topiknya: TOPIK20
   topikpublishnya: RecTOPIK20
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 2081830074}
 --- !u!114 &1682435700
 MonoBehaviour:
@@ -15156,7 +15297,7 @@ GameObject:
   - component: {fileID: 1717545067}
   - component: {fileID: 1717545066}
   m_Layer: 5
-  m_Name: BrokerPort
+  m_Name: MasukanPortBroker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15838,7 +15979,7 @@ GameObject:
   - component: {fileID: 1748519108}
   - component: {fileID: 1748519107}
   m_Layer: 0
-  m_Name: NewAll
+  m_Name: ObjekAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15851,7 +15992,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748519106}
-  m_Mesh: {fileID: 1903441984}
+  m_Mesh: {fileID: 296150398}
 --- !u!23 &1748519108
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15870,7 +16011,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2030985838}
+  - {fileID: 803736037}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16019,7 +16160,6 @@ MonoBehaviour:
   topiknya: TOPIK16
   topikpublishnya: RecTOPIK16
   satuan: '%'
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 508052621}
 --- !u!114 &1753755882
 MonoBehaviour:
@@ -16599,7 +16739,6 @@ MonoBehaviour:
   topiknya: TOPIK12
   topikpublishnya: RecTOPIK12
   satuan: gpm
-  connectButton: {fileID: 8837996066641401298}
   ValueText: {fileID: 1196914976}
 --- !u!114 &1826415517
 MonoBehaviour:
@@ -17139,169 +17278,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890558013}
   m_CullTransparentMesh: 0
---- !u!43 &1903441984
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh41902
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 6
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 4
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.4978735}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200020001000300
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 4
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 128
-    _typelessdata: 000000bf0000000047e9febe000000000000803f000000000000000000000000000000bf0000000047e9fe3e000000000000803f00000000000000000000803f0000003f0000000047e9febe000000000000803f000000000000803f000000000000003f0000000047e9fe3e000000000000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0, z: 0.4978735}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1905704713
 GameObject:
   m_ObjectHideFlags: 0
@@ -18119,34 +18095,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022488250}
   m_CullTransparentMesh: 0
---- !u!21 &2030985838
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'NewkiriMaterial
-
-    41912'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1b05680b19b04d4a8cfcbf9f18852f61, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &2035403297
 GameObject:
   m_ObjectHideFlags: 0
@@ -18446,6 +18394,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070901174}
   m_CullTransparentMesh: 0
+--- !u!21 &2075571732
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'NewkananMaterial
+
+    16434'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 99727a6c457b4c3a9eeb6478102bb044, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &2080759753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18860,7 +18836,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Percentage
+  m_Text: Persentase
 --- !u!222 &2094360549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19063,7 +19039,7 @@ GameObject:
   - component: {fileID: 8837996066020043464}
   - component: {fileID: 8837996066020043467}
   m_Layer: 5
-  m_Name: BrokerAddress
+  m_Name: MasukanAlamatBroker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19531,7 +19507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Connect
+  m_Text: Menyambung
 --- !u!1 &8837996066641401292
 GameObject:
   m_ObjectHideFlags: 0
@@ -19545,7 +19521,7 @@ GameObject:
   - component: {fileID: 8837996066641401299}
   - component: {fileID: 8837996066641401298}
   m_Layer: 5
-  m_Name: ConnectButton
+  m_Name: TombolKoneksi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19568,7 +19544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.899994, y: -43.999973}
+  m_AnchoredPosition: {x: -24.6, y: -43.999973}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8837996066641401296
@@ -20045,7 +20021,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -20055,7 +20031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Broker Address
+  m_Text: Alamat Broker
 --- !u!1 &8837996067275132091
 GameObject:
   m_ObjectHideFlags: 0

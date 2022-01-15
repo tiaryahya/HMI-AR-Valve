@@ -13,6 +13,7 @@ public class Rotate : MonoBehaviour
     public int adjustx;
     public int adjusty;
     public int adjustz;
+
     //Method Start
     void Start()
     {
@@ -25,6 +26,7 @@ public class Rotate : MonoBehaviour
         //Update nilai slider
         sliderZ.onValueChanged.AddListener(RotateSliderUpdate);
     }
+
     //Method Update
     void RotateSliderUpdate(float value){
         //sumbu rotasi z

@@ -398,7 +398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7, y: -14.48}
+  m_AnchoredPosition: {x: -1.6, y: -14.48}
   m_SizeDelta: {x: 202, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &427997193
@@ -765,7 +765,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -776,7 +776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flow Out
+  m_Text: Laju Alir Keluar
 --- !u!222 &623023451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Disconnect
+  m_Text: Memutus
 --- !u!222 &710685473
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1099,9 +1099,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Back
-
-'
+  m_Text: Kembali
 --- !u!222 &861690890
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1228,7 +1226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.04, y: 1.89}
+  m_AnchoredPosition: {x: 0.23, y: 1.44}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975792204
@@ -1252,10 +1250,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1358,7 +1356,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1766,17 +1764,17 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Broker Address
+  m_Text: Alamat Broker
 --- !u!222 &1154866812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2076,7 +2074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotate
+  m_Text: Rotasi
 --- !u!222 &1433944335
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2325,9 +2323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Publish
-
-'
+  m_Text: Kirim
 --- !u!222 &1559770285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2372,8 +2368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8, y: -16}
-  m_SizeDelta: {x: 85.5, y: 30}
+  m_AnchoredPosition: {x: 2.17, y: -16}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564881978
 MonoBehaviour:
@@ -2522,8 +2518,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.22, y: 1.89}
-  m_SizeDelta: {x: 105.7, y: 16.3}
+  m_AnchoredPosition: {x: -0, y: 2.79}
+  m_SizeDelta: {x: 109.9, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570425513
 MonoBehaviour:
@@ -2546,10 +2542,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -2557,7 +2553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Valve Opening :'
+  m_Text: Persentase Bukaan
 --- !u!222 &1570425514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2949,7 +2945,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.63, y: -0.42}
+  m_AnchoredPosition: {x: 3.33, y: -0.42}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883531781
@@ -2973,7 +2969,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2984,7 +2980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flow In
+  m_Text: Laju Alir Masuk
 --- !u!222 &1883531782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3062,7 +3058,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Message
+  m_Text: Nilai
 --- !u!222 &1892543964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3140,7 +3136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Connect
+  m_Text: Menyambung
 --- !u!222 &1987800490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3340,7 +3336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.63, y: -1.7499995}
+  m_AnchoredPosition: {x: 3.33, y: -1.7499995}
   m_SizeDelta: {x: 80, y: 16.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084115594
@@ -3364,7 +3360,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -3446,8 +3442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9, y: -16}
-  m_SizeDelta: {x: 83.2, y: 30}
+  m_AnchoredPosition: {x: -1.92, y: -16}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124138256
 MonoBehaviour:

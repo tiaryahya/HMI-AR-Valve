@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ValveMovement : MonoBehaviour{
     //Deklarasi variabel
     float currentPosZ;
@@ -16,12 +16,27 @@ public class ValveMovement : MonoBehaviour{
     public float AdjustY;
     public float AdjustZ;
     public int AdjustRot;
+    private Slider sliderRotate;
+    //
+    void Start()
+    {
+        //Objek slider
+        sliderRotate=GameObject.Find("Slider").GetComponent<Slider>();
+        //Nilai rotasi minimal
+        sliderRotate.minValue=0;
+        //Nilai rotasi maksimal
+        sliderRotate.maxValue=90;
+    }
+    public void RotateSliderUpdate(float rotvalue){
+        Debug.Log("rot:"+rotvalue);
+    }
 
     //Method update nilai persentase
     public void UpdateValue(int valveValue){
         nilaiValve=valveValue;
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -37,8 +52,8 @@ public class ValveMovement : MonoBehaviour{
         else if (JenisGerak=="Rot"){
             //Pemilihan sumbu putar
             if (SumbuPutar=="x"){
-                //0,-90
-                transform.rotation=Quaternion.Euler(AdjustRot+90+nilaiValve*0.90f,AdjustY,AdjustZ);
+                //0,-90 
+                transform.rotation=Quaternion.Euler(AdjustRot+90+nilaiValve*0.90f,AdjustY,AdjustZ);         
             }
             else if (SumbuPutar=="y"){
                 transform.rotation=Quaternion.Euler(AdjustX,AdjustRot+90+nilaiValve*0.90f,AdjustZ);
@@ -48,5 +63,6 @@ public class ValveMovement : MonoBehaviour{
             }
             
         }
+        
     }
 }
